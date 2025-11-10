@@ -18,9 +18,14 @@ int main() {
 		return 1;
 	}
 
-	for (int j = 0; j < len; j++){
+	
+	/*
+	for (size_t j = 0; j < len; j++){
 		printf("%f\n", out_arr[j]);
 	}
+	*/
+
+	
 
 	free(out_arr);
 }
